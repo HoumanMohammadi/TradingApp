@@ -13,11 +13,11 @@ import org.springframework.data.mongodb.core.mapping.MongoId;
 @AllArgsConstructor
 public class Stock {
 
-
-    private String id;
-    private String isin;
-    private String stockTicker;
-    private String companyName;
+    @MongoId
+    String id;
+    String isin;
+    String stockTicker;
+    String companyName;
 
 
 }

@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.MongoId;
 @AllArgsConstructor
 public class User {
    @MongoId
-    private String Id;
-    private String firstName;
-    private String lastName;
+     String id;
+     String firstName;
+     String lastName;
 }
